@@ -1,0 +1,202 @@
+
+
+
+.header_wrapper{
+    overflow: hidden;
+}
+
+.header{
+    height: 98px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.header .logo{
+    width: 200px;
+    height: 98px;
+    background:#ff6700;
+}
+/* 登陆主体部分 */
+.enter_wrapper{
+    background:#ccc;
+    padding: 30px 0;
+}
+.enter_login{
+    background-image:red;
+}
+.enter_box{
+    width: 410px;
+    min-height: 524px;
+    background-color: #fff;
+    margin-left: 816px;
+}
+
+.nav_tabs{
+    height: 80px;
+    text-align: center
+}
+.nav_tabs .sep{
+    display: inline-block;
+    height: 20px;
+    width: 1px;
+    background-color: #ccc;
+    position: relative;
+    top: 2px;
+}
+.nav_tabs .userid_login , .nav_tabs .code_login{
+    display: inline-block;
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 25px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #666;
+    font-weight: lighter;
+}
+.nav_tabs .active{
+    color: #ff6700;
+}
+.nav_tabs a:hover{
+    color:#ff6700;
+}
+
+.login_info{
+    height: 230px;
+    padding: 0 30px;
+    position: relative;
+}
+
+.login_info .login_input,.login_info .login_code{
+    width: 350px;
+    height: 230px;
+    position: absolute;
+    background: #fff;
+}
+.login_info .login_input{
+    z-index:-1 ;
+    background-clip: orange;
+}
+.login_info form>input{
+    display: block;
+    width: 348px;
+    height: 48px;
+    outline:none;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    color: #999;
+    text-indent: 10px;
+    font-size: 13px;
+}
+.login_info form>input[type=button]{
+    border: none;
+    width: 350px;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    background-color: #ff6700;
+    margin-top: 30px;
+    cursor: pointer;
+}
+/* 忘记密码？====================================== */
+.other_panel{
+    height: 20px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.other_panel a{
+    color: #999;
+}
+.other_panel a:hover{
+    color: #ff6700;
+}
+.other_panel .login_mess a{
+    color: #ff6700;
+    float: left;
+}
+.other_panel .reg_forget>.sep{
+    display: inline-block;
+    width: 1px ;
+    height: 12px;
+    background-color: #ccc;
+    position: relative;
+    top: 2px;
+    margin-left: 4px;
+}
+.other_panel .reg_forget{
+    float: right;
+}
+/* 第三方登录方式 */
+.login_way{
+    margin-top: 100px;
+    margin: 100px 30px 0 30px;;
+}
+.other_way{
+    border: none;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    text-align: center;
+}
+.other_way legend{
+    padding: 0 10px;
+    font-size: 13px;
+    color: #999;
+}
+.waymenu {
+    text-align:center;
+}
+.waymenu a{
+    font-size: 11px;
+    color: #fff;
+    margin: 10px 20px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    text-align: center;
+    background-color:#ff6700;
+}
+
+
+/* 底部======================= */
+.footer_wrapper{
+    margin-top: 100px;
+}
+.footer{
+    height: 80px;
+}
+.footer .setting ul{
+    height: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.footer .setting ul>li{
+    display: inline-block;
+    margin: 0 20px;
+    font-family: "微软雅黑";
+}
+.footer .setting ul>li>a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+}
+.footer .setting ul>li>a:hover{
+    color: #333;
+}
+.footer .setting ul>li>.active{
+    color: #333;
+}
+.footer .copyinfo{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #999;
+}
+.footer .copyinfo a{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color: #999;
+    padding-left: 20px;
+}
