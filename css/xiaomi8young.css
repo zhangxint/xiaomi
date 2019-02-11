@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+
+body,html{
+	font:16px "微软雅黑",Arial;
+	color:#3c3c3c;	
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;
+	font-size:100%;	
+}
+i,em{
+	font-style:normal;	
+}
+li{
+	list-style:none;	
+}
+a{
+	text-decoration:none;
+	color:#6a6a6a;	
+}
+input{
+	outline:none;	
+}
+img{
+	border:0;	
+}
+.clearfix{
+	*zoom:1;	
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+}
+
+.contuiner{
+    margin: 0 auto;
+    width: 1226px;
+}
+/* header */
+#header-top{
+    width: 100%;
+    background-color:#fff;
+}
+#header-top .contuiner{
+    width: 1226px;
+    height: 63px;
+    line-height: 63px;
+    background: #fff;
+}
+#header-top .contuiner h2{
+    float:left;
+    font-size: 18px;
+}
+#header-top .contuiner ul{
+    float: right;
+    position: relative;
+}
+#header-top .contuiner li{
+    float:left;
+    margin-left: 8px;
+    color:#616161;
+}
+#header-top .contuiner ul .g{
+    height: 12px;
+    width: 2px;
+    background: #e8e2e0;
+    position: relative;
+    top:26px;
+}
+
+/* login */
+.login{
+    width: 100%;
+    height:50px;
+}
+.login .contuiner{
+    height: 50px;
+    background: #f7f7f7;
+    line-height: 50px;
+    padding-left: 470px;
+    font-size: 12px;
+    box-shadow: 0 -5px 5px #e6e6e6;
+}
+.login .contuiner h3{
+    float: left;
+}
+.login .contuiner a{
+    display: block;
+    float: left;
+    color:red;
+    padding-left: 30px;
+}
+
+/* main */
+#main{
+    width: 100%;
+    height: 1554px;
+    background:#fff;
+}
+#main .contuiner{
+    height: 1554px;
+    background:#fff;
+}
+#main .contuiner .main_left{
+    width: 621px;
+    background:#fff;
+    height: 1554px;
+    float: left;
+}
+#main .contuiner .main_right{
+    width: 605px;
+    background: #fff;
+    height: 1554px;
+    float: right;
+}
+#main .contuiner .main_right{
+    font-size: 22px;
+}
+#main .contuiner .main_right .introduce{
+    font-size: 12px;
+    color:#b0b0b0;
+    line-height: 20px;
+}
+.ff4a00{
+    color:#ff4a00;
+}
+#main .contuiner .main_right .aftersale-company{
+    font-size: 14px;
+    padding-top:20px;
+}
+#main .contuiner .main_right .price{
+    font-size: 16px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b0b0b0;
+}
+#main .contuiner .main_right .sale-wrap{
+    height: 52px;
+    padding-top:12px;
+    border-bottom: 1px solid #b0b0b0;
+}
+#main .contuiner .main_right .flow-tag{
+    width: 80px;
+    height: 25px;
+    background: #ff4a00;
+    display: block;
+    font-size: 14px;
+    color:#fff;
+    font-weight: bolder;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+}
+#main .contuiner .main_right .flow-name{
+    display: block;
+    float: left;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 5px;
+}
+#main .contuiner .main_right #user-default-address{
+    box-sizing: border-box;
+    height: 104px;
+    border:1px solid #b0b0b0;
+    margin-top:40px;
+    margin-bottom: 40px;
+    padding:30px 40px 30px 50px;
+    font-size:14px;
+    background: #fafafa;
+}
+#main .contuiner .main_right #user-default-address div{
+    height: 19px;
+}
+#main .contuiner .main_right #user-default-address .address-info{
+    float:left;
+}
+#main .contuiner .main_right #user-default-address .address-info .item{
+    margin-right:14px;
+}
+#main .contuiner .main_right #user-default-address .switch-choose-regions{
+    float:left;
+}
+#main .contuiner .main_right .list-wrap{
+    height: 855px;
+    background: #fff;
+}
+#main .contuiner .main_right .list-wrap .pro-choose{
+    height: 137px;
+    background:#fff;
+    margin-bottom:30px;
+}
+#main .contuiner .main_right .list-wrap .pro-choose .active{
+    width: 296px;
+    height: 44px;
+    box-sizing: border-box;
+    border:1px solid #b0b0b0;
+    float: left;
+    margin-top:10px;
+    margin-left: 6px;
+    line-height: 44px;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 27px;
+    position: relative;
+}
+#main .contuiner .main_right .list-wrap .pro-choose .active img{
+    display: block;
+    width: 16px;
+    height: 16px;
+    position:absolute;
+    top:14px;
+    left:116px;
+}
+#main .contuiner .main_right .list-wrap .pro-choose .active span{
+    display: block;
+    float: right;
+    padding-right: 27px;
+}
+#main .contuiner .main_right .list-wrap .pro-choose .active .blue{
+    display: block;
+    float: right;
+    padding-right: 112px;
+}
+#main .contuiner .main_right .step-list{
+    height: 346px;
+}
