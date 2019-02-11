@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="shortuct icon" href="../Img/favicon.ico" type="img/x-icon">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/login.css">
-    <!-- <script src="js/jquery3.2.1.js"></script>
-    <script src="js/login.js"></script> -->
+    <script src="../js/login.js"></script> 
 </head>
 <body>
    <div class="header_wrapper">
@@ -17,35 +17,46 @@
        </div>
    </div>
    <div class="enter_wrapper">
+        <a href="redmiSeven.html" class="redmi7"></a>  
         <div class="enter_login container">
             <div class="enter_box">
                 <div class="nav_tabs">
-                    <a class="userid_login active" href="javascript:void(0);">帐号登录</a>
+                    <a class="userid_login active" href="javascript:void(0)">帐号登录</a>
                     <span class="sep"></span>
-                    <a class="code_login" href="javascript:void(0);">扫码登录</a>
+                    <a class="code_login" href="javascript:void(0)">扫码登录</a>
                 </div>
                 
                 <div class="login_info">
                     <!-- 账号登录 -->
                     <form action="" class="login_input">
                         <input type="text" id="username" placeholder="邮箱/手机号码/小米ID">
+                        <label for="usertel" class="countrynum">+86</label>   
+                        <input type="tel" id="usertel" placeholder="请输入手机号码" class="usertel">
                         <input type="password" id="userpwd" placeholder="密码">
+                        <input type="text" class="text_code" placeholder="短信验证码"> 
+                        <input type="button" class="send_mess" value="获取验证码">   
                         <input type="button" value="登录" id="usersub">
                         <div class="other_panel">
-                            <div class="login_mess"><a href="">手机短信登录</a></div>
+                            <div class="login_mess">
+                                <a href="javascript:void(0)" class="login_messtxt">手机短信登录</a>
+                            </div>
                             <div class="reg_forget">
-                                <a href="html/register.html">立即注册</a>
+                                <a href="register.html">立即注册</a>
                                 <span class="sep"></span>
                                 <a href="">忘记密码？</a>
                             </div>
                         </div>  
                     </form>
-                     <!-- 扫码登录 -->
+                    <!-- 扫码登录 -->
                     <div class="login_code">
-                        <div class="code_img">扫码登录</div>
+                        <div class="code_img">
+                            <img src="../Img/Er_code.png" alt="扫一扫" width="200px" height="200px">
+                            <p>使用 <span class="mishop">小米商城APP</span> 扫一扫</p>
+                            <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>   
+                        </div>
                     </div>
                 </div>
-               
+                <!-- 其他登录方式 -->
                 <div class="login_way">
                     <fieldset class="other_way">
                         <legend>其他方式登录</legend>
@@ -58,11 +69,11 @@
                     </div>
                 </div>
             </div>
-        </div>    
+        </div>  
    </div>   
    
-   <!-- 底部 -->
-   <div class="footer_wrapper">
+    <!-- 底部 -->
+    <div class="footer_wrapper">
         <div class="footer container">
             <div class="setting">
                 <ul>
@@ -79,6 +90,6 @@
                 -京ICP证110507号
             </p>
         </div>
-   </div>
+    </div>
 </body>
 </html>
