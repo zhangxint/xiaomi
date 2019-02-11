@@ -13,23 +13,37 @@
 .header .logo{
     width: 200px;
     height: 98px;
-    background:#ff6700;
+    background:#ccc url(../Img/logologin.jpg) no-repeat center;
+
 }
 /* 登陆主体部分 */
 .enter_wrapper{
-    background:#ccc;
-    padding: 30px 0;
+    height: 588px;
+    overflow: hidden;
+}
+.enter_wrapper .redmi7{
+    display:block;
+    background: url(../Img/loginbg.jpg) no-repeat center;
+    height: 588px;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
 }
 .enter_login{
-    background-image:red;
+    overflow: hidden;
+    position: relative;
+    min-height: 524px;
+    margin-top: 32px;
 }
 .enter_box{
     width: 410px;
     min-height: 524px;
     background-color: #fff;
-    margin-left: 816px;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 2;
 }
-
 .nav_tabs{
     height: 80px;
     text-align: center
@@ -73,8 +87,10 @@
     background: #fff;
 }
 .login_info .login_input{
-    z-index:-1 ;
     background-clip: orange;
+}
+.login_info form{
+    font-size: 0px;
 }
 .login_info form>input{
     display: block;
@@ -97,6 +113,70 @@
     margin-top: 30px;
     cursor: pointer;
 }
+
+.login_info form>label[for=usertel]{
+    height: 50px;
+    width: 48px;
+    font-size: 13px;
+    line-height: 49px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: 10px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    color: #999;
+    display: none;
+}
+
+.login_info form>input[type=tel]{
+    width:298px;
+    display: inline-block;
+    display: none;
+    vertical-align: middle
+}
+/* 短信验证码 */
+.login_info form>input[class=text_code]{
+    width: 248px;
+    height: 46px;
+    display: none;
+    border:1px solid #ccc;
+
+}
+.login_info form>input[class=send_mess]{
+    width: 99px;
+    letter-spacing: 0;
+    font-size: 12px;
+    height: 50px;
+    color:blue;
+    background-color:#fff;
+    border:1px solid #ccc;
+    border-left: 0;
+    display: none;
+    position: relative;
+    top: -5px;
+}
+
+
+
+/* 扫码登录 */
+.login_code{
+    display: none;
+}
+.login_code img{
+    margin:30px auto;
+}
+.login_code .code_img>p{
+    text-align: center;
+    line-height: 20px;
+    font-size: 13px;
+    color: #666;
+    letter-spacing: 0;
+}
+.login_code .code_img>p>.mishop{
+    color: #ff6700;
+}
+
 /* 忘记密码？====================================== */
 .other_panel{
     height: 20px;
@@ -126,6 +206,11 @@
 .other_panel .reg_forget{
     float: right;
 }
+.login_messtxt{
+    color:#ff6700;
+}
+
+
 /* 第三方登录方式 */
 .login_way{
     margin-top: 100px;
