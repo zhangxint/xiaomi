@@ -1,0 +1,148 @@
+
+{
+	"phone":[
+		{
+			"id" : "001",
+			"phone" : "小米8 青春版",
+			"price" : "1299",
+			"oldprice" : "1399",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone01.jpg" ,
+			"info" : " AI 超感光双摄 / 前置2000万柔光自拍",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "4G+6G",
+			"salespromotion" :"新品"
+		},
+		{
+			"id" : "002",
+			"phone" : "小米Play",
+			"price" : "1099",
+			"oldprice" : "",
+			"color" : ["齋石黑","赤焰红","樱花粉","冰川蓝"],
+			"imgurl" : "Img/phone02.png" ,
+			"info" : "轻薄美观的拍照手机 / 前置2000万“治愈系”自拍 / 后置2000万 AI双摄 / 标配骁龙660 AIE处理器",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+64G",
+			"salespromotion" :"新品"
+		},
+		{
+			"id" : "003",
+			"phone" : "小米8SE 6GB+4GB",
+			"price" : "1699",
+			"oldprice" : "1999",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone03.jpg" ,
+			"info" : "双摄 / 八核高性能处理器",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "4G+6G",
+			"salespromotion" :"立减300"
+		},
+		{
+			"id" : "004",
+			"phone" : "小米MIX 2S 8GB+256GB",
+			"price" : "3399",
+			"oldprice" : "3999",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone04.jpg" ,
+			"info" : "搭载高通骁龙845 年度旗舰处理器/AI超感光双摄，DxO百分相机 / 高效 Qi 无线充电",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+12G",
+			"salespromotion" :"立减600"
+		},
+		{
+			"id" : "005",
+			"phone" : "小米6X 6GB+128GB",
+			"price" : "1499",
+			"oldprice" : "1999",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone05.jpg" ,
+			"info" : "搭载高通骁龙845 年度旗舰处理器/AI超感光双摄，DxO百分相机 / 高效 Qi 无线充电",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+12G",
+			"salespromotion" :"享八折"
+		},
+		{
+			"id" : "006",
+			"phone" : "小米MIX 3 4GB+64GB",
+			"price" : "1599",
+			"oldprice" : "1699",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone06.jpg" ,
+			"info" : "搭载高通骁龙845 年度旗舰处理器/AI超感光双摄，DxO百分相机 / 高效 Qi 无线充电",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+12G",
+			"salespromotion" :"减100"
+		},
+		{
+			"id" : "007",
+			"phone" : "红米6 PRO",
+			"price" : "1029",
+			"oldprice" : "1299",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone07.jpg" ,
+			"info" : "",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+12G",
+			"salespromotion" :"享八折"
+		},
+		{
+			"id" : "008",
+			"phone" : "红米6A 2S 2GB+16GB",
+			"price" : "549",
+			"oldprice" : "599",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/phone08.jpg" ,
+			"info" : "搭载高通骁龙845 年度旗舰处理器/AI超感光双摄，DxO百分相机 / 高效 Qi 无线充电",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+12G",
+			"salespromotion" :"减50"
+		}
+	],
+	"appliance":[
+		{
+			"id" : "001",
+			"phone" : "米家互联网空调",
+			"price" : "1299",
+			"oldprice" : "1399",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/peeroose.jpg" ,
+			"info" : " AI 超感光双摄 / 前置2000万柔光自拍",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "4G+6G"
+		},
+		{
+			"id" : "002",
+			"phone" : "米家激光投影电视 4K",
+			"price" : "14999",
+			"oldprice" : "17999",
+			"color" : ["齋石黑","赤焰红","樱花粉","冰川蓝"],
+			"imgurl" : "Img/peeroose.jpg" ,
+			"info" : "轻薄美观的拍照手机 / 前置2000万“治愈系”自拍 / 后置2000万 AI双摄 / 标配骁龙660 AIE处理器",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+64G"
+		},
+		{
+			"id" : "003",
+			"phone" : "15.6\"笔记本 i5",
+			"price" : "4099",
+			"oldprice" : "4399",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/peeroose.jpg" ,
+			"info" : "双摄 / 八核高性能处理器",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "4G+6G"
+		},
+		{
+			"id" : "004",
+			"phone" : "13.6\"小米笔记本Air四核",
+			"price" : "5699",
+			"oldprice" : "6399",
+			"color" : ["深空灰","亮红","亮蓝","金色"],
+			"imgurl" : "Img/peeroose.jpg" ,
+			"info" : "搭载高通骁龙845 年度旗舰处理器/AI超感光双摄，DxO百分相机 / 高效 Qi 无线充电",
+			"zengpin" : "赠米粉卡，最高含100元话费",
+			"ROM" : "6G+12G"
+		}
+	]
+}
+
